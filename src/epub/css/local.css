@@ -1,2 +1,87 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Preface */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* End preface */
+
+/* Introduction */
+[epub|type~="introduction"] ul{
+	list-style-type: none;
+}
+
+[epub|type~="introduction"] ul li + li{
+	margin-top: .5em;
+}
+/* End introduction */
+
+/* Bridgehead */
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
+
+[epub|type~="z3998:hymn"] [epub|type~="bridgehead"],
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
+[epub|type~="z3998:song"] [epub|type~="bridgehead"],
+[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
+	text-align: justify;
+}
+/* End bridgehead */
+
+/* Poem */
+[epub|type~="z3998:hymn"] hgroup p,
+[epub|type~="z3998:poem"] hgroup p,
+[epub|type~="z3998:song"] hgroup p,
+[epub|type~="z3998:verse"] hgroup p{
+	text-align: center;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+/* Caesuras */
+span > span + span{
+	margin-left: 1.5em;
+}
+/* End poem */
