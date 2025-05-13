@@ -31,23 +31,13 @@ footer{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
-[epub|type~="z3998:hymn"] [epub|type~="bridgehead"],
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
-[epub|type~="z3998:song"] [epub|type~="bridgehead"],
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
 	text-align: justify;
 }
 /* End bridgehead */
 
 /* Poem */
-[epub|type~="z3998:hymn"] hgroup p,
-[epub|type~="z3998:poem"] hgroup p,
-[epub|type~="z3998:song"] hgroup p,
-[epub|type~="z3998:verse"] hgroup p{
+[epub|type~="z3998:poem"] hgroup p{
 	text-align: center;
 }
 
@@ -68,16 +58,6 @@ footer{
 
 [epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
-}
-
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
 }
 
 /* Caesuras */
