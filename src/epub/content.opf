@@ -92,7 +92,43 @@
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction-1.xhtml" id="introduction-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/introduction-2.xhtml" id="introduction-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-1.xhtml" id="tale-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-2.xhtml" id="tale-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-3.xhtml" id="tale-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-4.xhtml" id="tale-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-5.xhtml" id="tale-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-6.xhtml" id="tale-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-7.xhtml" id="tale-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-8.xhtml" id="tale-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-9.xhtml" id="tale-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-10.xhtml" id="tale-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-11.xhtml" id="tale-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-12.xhtml" id="tale-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-13.xhtml" id="tale-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-14.xhtml" id="tale-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-15.xhtml" id="tale-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-16.xhtml" id="tale-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-17.xhtml" id="tale-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-18.xhtml" id="tale-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-19.xhtml" id="tale-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-20.xhtml" id="tale-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-21.xhtml" id="tale-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-22.xhtml" id="tale-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-23.xhtml" id="tale-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-24.xhtml" id="tale-24.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-25.xhtml" id="tale-25.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-26.xhtml" id="tale-26.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-27.xhtml" id="tale-27.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-28.xhtml" id="tale-28.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-29.xhtml" id="tale-29.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-30.xhtml" id="tale-30.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-31.xhtml" id="tale-31.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/tale-32.xhtml" id="tale-32.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -100,6 +136,42 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="introduction-1.xhtml"/>
+		<itemref idref="introduction-2.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="tale-1.xhtml"/>
+		<itemref idref="tale-2.xhtml"/>
+		<itemref idref="tale-3.xhtml"/>
+		<itemref idref="tale-4.xhtml"/>
+		<itemref idref="tale-5.xhtml"/>
+		<itemref idref="tale-6.xhtml"/>
+		<itemref idref="tale-7.xhtml"/>
+		<itemref idref="tale-8.xhtml"/>
+		<itemref idref="tale-9.xhtml"/>
+		<itemref idref="tale-10.xhtml"/>
+		<itemref idref="tale-11.xhtml"/>
+		<itemref idref="tale-12.xhtml"/>
+		<itemref idref="tale-13.xhtml"/>
+		<itemref idref="tale-14.xhtml"/>
+		<itemref idref="tale-15.xhtml"/>
+		<itemref idref="tale-16.xhtml"/>
+		<itemref idref="tale-17.xhtml"/>
+		<itemref idref="tale-18.xhtml"/>
+		<itemref idref="tale-19.xhtml"/>
+		<itemref idref="tale-20.xhtml"/>
+		<itemref idref="tale-21.xhtml"/>
+		<itemref idref="tale-22.xhtml"/>
+		<itemref idref="tale-23.xhtml"/>
+		<itemref idref="tale-24.xhtml"/>
+		<itemref idref="tale-25.xhtml"/>
+		<itemref idref="tale-26.xhtml"/>
+		<itemref idref="tale-27.xhtml"/>
+		<itemref idref="tale-28.xhtml"/>
+		<itemref idref="tale-29.xhtml"/>
+		<itemref idref="tale-30.xhtml"/>
+		<itemref idref="tale-31.xhtml"/>
+		<itemref idref="tale-32.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
