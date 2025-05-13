@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="tale-5.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>The character’s name, Wâ-te, is correctly titlecased.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
