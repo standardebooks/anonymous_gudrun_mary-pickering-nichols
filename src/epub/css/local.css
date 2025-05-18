@@ -20,6 +20,10 @@ footer{
 [epub|type~="introduction"] ul li + li{
 	margin-top: .5em;
 }
+
+[epub|type~="introduction"] dfn{
+	font-style: normal;
+}
 /* End introduction */
 
 /* Bridgehead */
