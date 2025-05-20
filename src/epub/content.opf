@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/anonymous/gudrun/mary-pickering-nichols</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-05-20T16:31:35Z</dc:date>
+		<meta property="dcterms:modified">2025-05-20T16:31:35Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,15 +39,15 @@
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A princess is captured by a jealous prince from a rival kingdom.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The epic poem &lt;i&gt;Gudrun&lt;/i&gt; (or &lt;i&gt;Kudrun&lt;/i&gt;) is a Middle High German heroic epic from the 13th century, likely written by an unidentified Bavarian or Austrian poet. The work is preserved in a single manuscript and is often regarded as an antithesis to the &lt;a href="https://standardebooks.org/ebooks/anonymous/the-nibelungenlied/alice-horton"&gt;&lt;i&gt;Nibelungenlied&lt;/i&gt;&lt;/a&gt;. One major difference between the two epics is &lt;i&gt;Gudrun&lt;/i&gt;’s emphasis on female resilience and reconciliation rather than tragic vengeance.&lt;/p&gt;
+			&lt;p&gt;The epic poem &lt;i&gt;Gudrun&lt;/i&gt; (or &lt;i&gt;Kudrun&lt;/i&gt;) is a Middle High German heroic epic from the 13th century, written by an unidentified poet who was likely Bavarian or Austrian. The work is preserved in a single manuscript and is often regarded as an antithesis to the &lt;a href="https://standardebooks.org/ebooks/anonymous/the-nibelungenlied/alice-horton"&gt;&lt;i&gt;Nibelungenlied&lt;/i&gt;&lt;/a&gt;; where the &lt;i&gt;Nibelungenlied&lt;/i&gt; emphasizes tragic vengeance, &lt;i&gt;Gudrun&lt;/i&gt; emphasizes female resilience and reconciliation.&lt;/p&gt;
 			&lt;p&gt;The story begins with the abduction of Gudrun’s mother, Hilda, by the warrior Hagen, who later becomes her husband. Their daughter, Gudrun, is betrothed to Herwic of Sealand, but she is kidnapped by Hartmut of Normandy and held captive for years, enduring hardship and refusing to marry him. After a long struggle, her betrothed Herwic and her family, led by her brother Ortwin, wage war to rescue her.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/46109</dc:source>
 		<dc:source>https://archive.org/details/gudrunmediaevale00nichiala</dc:source>
-		<meta property="se:production-notes">1) There are instances of the letter e with an acute accent. These indicate an “ay” sound. 2) `se find-mismatched-dashes` flags sea-lands/sealands. These shouldn’t be standardized. Sea-lands refer to general coastal regions, while Sealands (also Sealand) is a specific kingdom.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">1) There are instances of the letter `é`. These indicate an `ay` sound. 2) `se find-mismatched-dashes` flags sea-lands/sealands. These shouldn’t be standardized. Sea-lands refer to general coastal regions, while Sealands (also Sealand) is a specific kingdom.</meta>
+		<meta property="se:word-count">82176</meta>
+		<meta property="se:reading-ease.flesch">72.9</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kudrun</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anonymous_gudrun_mary-pickering-nichols</meta>
 		<dc:creator id="author">Anonymous</dc:creator>
@@ -83,6 +83,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
