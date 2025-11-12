@@ -58,9 +58,9 @@
 		<meta property="file-as" refines="#translator">Nichols, Mary Pickering</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Mary_Pickering_Nichols</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n81100649</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">wfw</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Michael Echter</dc:contributor>
 		<meta property="file-as" refines="#artist">Echter, Michael</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Michael_Echter</meta>
