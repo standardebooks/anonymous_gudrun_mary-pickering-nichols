@@ -47,7 +47,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/46109</dc:source>
 		<dc:source>https://archive.org/details/gudrunmediaevale00nichiala</dc:source>
 		<meta property="se:production-notes">1) There are instances of the letter `é`. These indicate an `ay` sound. 2) `se find-mismatched-dashes` flags sea-lands/sealands. These shouldn’t be standardized. Sea-lands refer to general coastal regions, while Sealands (also Sealand) is a specific kingdom.</meta>
-		<meta property="se:word-count">82176</meta>
+		<meta property="se:word-count">81323</meta>
 		<meta property="se:reading-ease.flesch">72.9</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kudrun</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anonymous_gudrun_mary-pickering-nichols</meta>
