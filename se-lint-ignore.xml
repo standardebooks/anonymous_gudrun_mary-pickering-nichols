@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="tale-5.xhtml">
 		<ignore code="s-023">
+			<line>16</line>
 			<reason>The character’s name, Wâ-te, is correctly titlecased.</reason>
 		</ignore>
 	</file>
