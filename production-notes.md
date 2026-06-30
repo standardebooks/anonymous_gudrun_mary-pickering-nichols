@@ -1,0 +1,1 @@
+1) There are instances of the letter `é`. These indicate an `ay` sound. 2) `se find-mismatched-dashes` flags sea-lands/sealands. These shouldn’t be standardized. Sea-lands refer to general coastal regions, while Sealands (also Sealand) is a specific kingdom.

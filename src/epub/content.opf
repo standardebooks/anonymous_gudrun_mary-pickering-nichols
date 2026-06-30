@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/anonymous/gudrun/mary-pickering-nichols</dc:identifier>
 		<dc:date>2025-05-20T16:31:35Z</dc:date>
 		<meta property="dcterms:modified">2025-05-20T16:31:35Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -37,7 +38,7 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">Poetry</meta>
+		<meta property="schema:genre">Poetry</meta>
 		<dc:description id="description">A princess is captured by a jealous prince from a rival kingdom.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The epic poem &lt;i&gt;Gudrun&lt;/i&gt; (or &lt;i&gt;Kudrun&lt;/i&gt;) is a Middle High German heroic epic from the 13th century, written by an unidentified poet who was likely Bavarian or Austrian. The work is preserved in a single manuscript and is often regarded as an antithesis to the &lt;a href="https://standardebooks.org/ebooks/anonymous/the-nibelungenlied/alice-horton"&gt;&lt;i&gt;Nibelungenlied&lt;/i&gt;&lt;/a&gt;; where the &lt;i&gt;Nibelungenlied&lt;/i&gt; emphasizes tragic vengeance, &lt;i&gt;Gudrun&lt;/i&gt; emphasizes female resilience and reconciliation.&lt;/p&gt;
@@ -46,24 +47,25 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/46109</dc:source>
 		<dc:source>https://archive.org/details/gudrunmediaevale00nichiala</dc:source>
-		<meta property="se:production-notes">1) There are instances of the letter `é`. These indicate an `ay` sound. 2) `se find-mismatched-dashes` flags sea-lands/sealands. These shouldn’t be standardized. Sea-lands refer to general coastal regions, while Sealands (also Sealand) is a specific kingdom.</meta>
-		<meta property="se:word-count">81323</meta>
-		<meta property="se:reading-ease.flesch">72.9</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kudrun</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/anonymous_gudrun_mary-pickering-nichols</meta>
+		<meta property="schema:wordCount">81323</meta>
+		<meta property="schema:educationalLevel">72.9</meta>
+		<link href="https://en.wikipedia.org/wiki/Kudrun" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/anonymous_gudrun_mary-pickering-nichols" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Anonymous</dc:creator>
 		<meta property="file-as" refines="#author">Anonymous</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Mary Pickering Nichols</dc:contributor>
 		<meta property="file-as" refines="#translator">Nichols, Mary Pickering</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Mary_Pickering_Nichols</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n81100649</meta>
+		<link href="https://en.wikipedia.org/wiki/Mary_Pickering_Nichols" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81100649.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">wfw</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Michael Echter</dc:contributor>
 		<meta property="file-as" refines="#artist">Echter, Michael</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Michael_Echter</meta>
+		<link href="https://en.wikipedia.org/wiki/Michael_Echter" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
@@ -73,11 +75,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -86,7 +88,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
