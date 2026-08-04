@@ -39,7 +39,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="schema:genre">Poetry</meta>
-		<dc:abstract>A princess is captured by a jealous prince from a rival kingdom.</dc:abstract>
+		<meta property="schema:abstract">A princess is captured by a jealous prince from a rival kingdom.</meta>
 		<dc:description>
 			&lt;p&gt;The epic poem &lt;i&gt;Gudrun&lt;/i&gt; (or &lt;i&gt;Kudrun&lt;/i&gt;) is a Middle High German heroic epic from the 13th century, written by an unidentified poet who was likely Bavarian or Austrian. The work is preserved in a single manuscript and is often regarded as an antithesis to the &lt;a href="https://standardebooks.org/ebooks/anonymous/the-nibelungenlied/alice-horton"&gt;&lt;i&gt;Nibelungenlied&lt;/i&gt;&lt;/a&gt;; where the &lt;i&gt;Nibelungenlied&lt;/i&gt; emphasizes tragic vengeance, &lt;i&gt;Gudrun&lt;/i&gt; emphasizes female resilience and reconciliation.&lt;/p&gt;
 			&lt;p&gt;The story begins with the abduction of Gudrun’s mother, Hilda, by the warrior Hagen, who later becomes her husband. Their daughter, Gudrun, is betrothed to Herwic of Sealand, but she is kidnapped by Hartmut of Normandy and held captive for years, enduring hardship and refusing to marry him. After a long struggle, her betrothed Herwic and her family, led by her brother Ortwin, wage war to rescue her.&lt;/p&gt;
