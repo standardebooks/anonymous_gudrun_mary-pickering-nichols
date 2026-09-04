@@ -32,8 +32,8 @@
 		<meta property="file-as" refines="#title">Gudrun</meta>
 		<meta property="dcterms:alternative" refines="#title">Gudrunlied</meta>
 		<meta property="dcterms:alternative" refines="#title">Kudrun</meta>
-		<dc:subject id="subject-1">Epic poetry, German -- Translations into English</dc:subject>
-		<dc:subject id="subject-2">German poetry -- Middle High German, 1050-1500 -- Translations into English</dc:subject>
+		<dc:subject id="subject-1">Epic poetry, German--Translations into English</dc:subject>
+		<dc:subject id="subject-2">German poetry--Middle High German, 1050-1500--Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
